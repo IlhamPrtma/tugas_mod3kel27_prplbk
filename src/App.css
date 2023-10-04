@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.counter {
+  font-size: 36px;
+}
+span{
+  color: rgb(10, 105, 2);
+}
+.button:hover{
+  background-color: green;
+  color: black;
+}
+body.background-red {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s;
+}
